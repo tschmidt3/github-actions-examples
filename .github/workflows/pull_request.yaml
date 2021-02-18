@@ -31,7 +31,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r python_packages/requirements.txt
+          pip install -r python_package/requirements.txt
       - name: Test with pytest
         run: |
           pip install pytest
